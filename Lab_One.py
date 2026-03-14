@@ -1,15 +1,15 @@
 print("This is Lab One, Part Two, Problem One, Python Coding Exercises;")
 import math
-r = 5
-a = math.pi * r**2
-v = (4 / 3) * math.pi * r**3
+radius = 5
+area = math.pi * radius**2
+volume = (4 / 3) * math.pi * radius**3
 a_side = 3
 b_side = 4
 c_side_sq = a_side**2 + b_side**2
-pyt = math.sqrt(c_side_sq)
-print("The area of the circle with the radius of five is:", a)
-print("The volume of the sphere with radius of three is:", v)
-print("The hypotenuse of a right angled triangle with the sides of 3 and four is:", pyt)
+pythagorean_theorem = math.sqrt(c_side_sq)
+print("The area of the circle with the radius of five is:", area)
+print("The volume of the sphere with radius of three is:", volume)
+print("The hypotenuse of a right angled triangle with the sides of 3 and four is:", pythagorean_theorem)
 
 print("This is Problem Two, String Manipulation;")
 
@@ -31,9 +31,10 @@ print ("The data type of each variable are:", type(age), type(height), type(weig
 BMI = (weight / height**2) * 703
 print ("My Body Mass Index is:", BMI)
 
-print ("Making the Pushes as Needed.")
+print("End of Lab One.")
 
+import math
+print(round(math.pi,2))
 
-
-
+print(round(math.pi, 2),3)
 
