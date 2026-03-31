@@ -10,6 +10,12 @@ print("Instructor Trevor shared that he recommends a test taking strategy; "
       "complete the other questions, then finally return to the last hardest "
       "problem and complete it.")
 
-print("one was a sorting problem, How do you tale these series of words and arrange them in a list?")
+print("one was a sorting problem, How do you tale these series of words and arrange them in "
+      "a list (the dot sorted function is useful here)?")
 
-print("one was a sorting problem, How do you take a numbers zero through 24 and show the odd numbers in a list, and the even numbers in a list? and using the modulus operator ")
+print("one was a sorting problem, How do you take a numbers zero through 24 and show the "
+      "odd numbers in a list, and the even numbers in a list? and using the modulus operator ")
+
+print("The hardest was a multi part sorting problem, using two for loops, one nested inside "
+      "the other, and one with an offset starting, by -1, and a list of words in a text file "
+      "that we make and then use to make a few words.")
